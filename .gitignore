@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# Don't commit the raw multi-hundred-thousand-row source file unless you
+# intentionally want it in the repo (see README for size considerations).
+data/Online_Retail.xlsx
