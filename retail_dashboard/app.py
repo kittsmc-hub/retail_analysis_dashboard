@@ -10,7 +10,6 @@ Deploy:
     Push this folder to a public GitHub repo, then deploy on
     https://share.streamlit.io (Streamlit Community Cloud) pointing at app.py.
 """
-
 import datetime as dt
 
 import numpy as np
@@ -389,6 +388,7 @@ with tab_model:
             "of very high-spend outlier customers typically pull RMSE up — "
             "look at MAE for a more typical error picture."
         )
+
 
 # ---- Tab 5: Data quality / cleaning transparency ----
 with tab_data:
