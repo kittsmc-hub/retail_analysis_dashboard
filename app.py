@@ -69,6 +69,8 @@ def clean_data(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     df["InvoiceNo"] = df["InvoiceNo"].astype(str)
     df["InvoiceDate"] = pd.to_datetime(df["InvoiceDate"])
 
+    df["StockCode"] = df["StockCode"].fillna("").astype(str)
+
     # 1. Remove cancelled orders (InvoiceNo starts with 'C')
     before = len(df)
     df = df[~df["InvoiceNo"].str.startswith("C")]
