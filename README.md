@@ -1,12 +1,12 @@
 # Online Retail — Customer Purchasing Behaviour & Sales Performance Analysis
 
 Individual data science project for DSA 1080XA — Individual Programming for
-Data Science**. This repository contains the full analysis of a real-world
+Data Science. This repository contains the full analysis of a real-world
 online retail transaction dataset, covering data cleaning, exploratory data
 analysis, visualization, statistical analysis, and a beginner-level machine
 learning model predicting customer spend.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 online-retail-analysis/
@@ -20,7 +20,7 @@ online-retail-analysis/
     └── README.md
 ```
 
-## 📊 Dataset
+## Dataset
 
 - **Name:** Online Retail
 - **Source:** UCI Machine Learning Repository
@@ -46,7 +46,7 @@ If `data/Online_Retail.xlsx` is not present in this repo (e.g. excluded for
 size reasons), download it directly from the UCI link above and place it in
 the `data/` folder before running the notebook.
 
-## 🧪 What's in the Notebook
+## What's in the Notebook
 
 `retail_analysis.ipynb` is organised into the following sections, in order:
 
@@ -60,7 +60,7 @@ the `data/` folder before running the notebook.
 8. **Machine Learning Model** — a Linear Regression model predicting customer total spend from Recency and Frequency, evaluated with MAE, RMSE, and R²
 9. **Conclusions** — key findings, business recommendations, limitations, and suggestions for future improvement
 
-## ⚙️ How to Run the Notebook
+## How to Run the Notebook
 
 **Requirements:** Python 3.9+ and Jupyter (via VS Code or `jupyter notebook`)
 
@@ -87,7 +87,7 @@ the `data/` folder before running the notebook.
 6. Run all cells in order (Kernel → Restart & Run All) to reproduce the full
    analysis from raw data to final model.
 
-## 📈 Key Findings (Summary)
+## Key Findings (Summary)
 
 - Revenue shows strong seasonality, rising sharply from September and
   peaking in November — consistent with pre-Christmas wholesale ordering.
@@ -104,14 +104,14 @@ Full methodology, reasoning for each cleaning decision, and detailed
 interpretation of every result are documented in the notebook itself and in
 the accompanying project report.
 
-## 🖥️ Optional: Interactive Dashboard
+##  Optional: Interactive Dashboard
 
 The `retail_dashboard/` folder contains a Streamlit web app version of this
 analysis with interactive filters. See `retail_dashboard/README.md` for setup
 and deployment instructions. This is a supplementary extension and is not a
 substitute for the notebook.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Python 3
 - **Data manipulation:** pandas, numpy
@@ -119,12 +119,8 @@ substitute for the notebook.
 - **Machine learning:** scikit-learn
 - **Environment:** Jupyter Notebook / VS Code
 
-## 👤 Author
 
-Kitts Mark Makokha — 202603164
-DSA 1080XA
-
-## 📄 Academic Integrity Note
+## Academic Integrity Note
 
 This project was completed individually as required by the course's academic
 integrity policy. AI tools were used only for learning concepts and
